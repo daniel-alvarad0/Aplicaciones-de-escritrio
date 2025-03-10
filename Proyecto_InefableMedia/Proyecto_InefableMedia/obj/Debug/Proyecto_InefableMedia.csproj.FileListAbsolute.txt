@@ -1,0 +1,70 @@
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csprojAssemblyReference.cache
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Properties.Resources.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.GenerateResource.cache
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.CoreCompileInputs.cache
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe.config
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.pdb
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.exe
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.pdb
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_usuarios.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.login.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Menu.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_clientes.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_proveedores.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_productos.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_inventario.resources
+C:\Users\oa397\OneDrive\Escritorio\guias POO\proyecto POO\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Facturacion.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe.config
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.pdb
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Facturacion.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.login.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Menu.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_clientes.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_inventario.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_productos.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_proveedores.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_usuarios.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Properties.Resources.resources
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.GenerateResource.cache
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.exe
+C:\Users\Rodrigo\OneDrive\Escritorio\proyecto poo fase 2\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.pdb
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe.config
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.pdb
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.SuggestedBindingRedirects.cache
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Facturacion.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.login.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Menu.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_clientes.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_inventario.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_productos.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_proveedores.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_usuarios.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Properties.Resources.resources
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.GenerateResource.cache
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.exe
+C:\Users\danie\OneDrive\Escritorio\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.pdb
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe.config
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.exe
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\bin\Debug\Proyecto_InefableMedia.pdb
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csprojAssemblyReference.cache
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Facturacion.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.login.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Menu.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_clientes.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_inventario.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_productos.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.registro_proveedores.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Forms.Registro_usuarios.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.Properties.Resources.resources
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.GenerateResource.cache
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.csproj.CoreCompileInputs.cache
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.exe
+C:\Users\dani2\Downloads\Proyecto_InefableMedia\Proyecto_InefableMedia\obj\Debug\Proyecto_InefableMedia.pdb
