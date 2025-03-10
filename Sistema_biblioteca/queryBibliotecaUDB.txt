@@ -1,0 +1,174 @@
+use master
+create database DB_bibliotecaUDB
+use DB_bibliotecaUDB
+
+--creacion de tablas
+create table usuario(
+Id int identity(1,1) not null,
+Nombres varchar(70),
+Apellidos varchar(70),
+Dirección varchar(70),
+Teléfono int,
+Email varchar(70),
+usuario varchar(70) not null,
+contraseña varchar(70)
+constraint pk_usuario primary key(Id)
+)
+
+create table Autor(
+Id_autor int identity(1,1) not null,
+Nombre_autor varchar(70)
+constraint pk_autor primary key(Nombre_autor)
+)
+
+create table Editorial(
+Id_editorial int identity(1,1) not null,
+Nombre_editorial varchar(70)
+constraint pk_editorial primary key(Nombre_editorial)
+)
+
+create table Libro(
+Id_libro int identity(1,1) not null,
+NombreLibro varchar(100) not null,
+NombreAutor varchar(70) not null,
+Editorial varchar(70) not null,
+ISBN varchar(70),
+Descripcion varchar(100),
+Año_edicion int,
+Fecha_ingreso datetime NULL DEFAULT (sysdatetime()),
+Estado varchar(70)
+constraint pk_idLibro primary key(Id_libro),
+constraint un_isbn unique(ISBN),
+constraint ch_Año_edicion check(Año_edicion >= 2000 and Año_edicion <= 2022),
+constraint fk_autor foreign key(NombreAutor) references Autor(Nombre_autor),
+constraint fk_editorial foreign key(Editorial) references Editorial(Nombre_editorial),
+CONSTRAINT Ck_Estado CHECK (Estado IN ('Disponible', 'Prestado', 'Reservado'))
+)
+
+create table Estudiante(
+Carnet varchar(100) not null,
+Nombres varchar(100) not null,
+Apellidos varchar(100) not null,
+Facultad varchar(100) not null,
+Fecha_registro datetime NULL DEFAULT (sysdatetime()),
+Numero_teléfono int not null,
+correo_eléctronico varchar(70)
+constraint pk_carnet primary key(Carnet),
+constraint ch_Carnet check(Carnet like '[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9]')
+)
+
+create table prestamo(
+id_prestamo int identity(1,1) not null,
+Carnet varchar(100) not null,
+Nombres_estudiante varchar(100) not null,
+Apellidos_estudiante varchar(100) not null,
+Facultad_estudiante varchar(100) not null,
+Num_telefono_estudiante int not null,
+Correo_estudiante varchar(100) not null,
+Id_libro int,
+Titulo_libro varchar(100) not null,
+Fecha_prestamo varchar(100) not null,
+Fecha_devolucion varchar(100),
+constraint pk_pedido primary key(id_prestamo),
+constraint ch_fechas check(Fecha_prestamo<=Fecha_devolucion),
+constraint fk_estudiante foreign key(Carnet) references Estudiante(Carnet),
+constraint fk_libro foreign key(Id_libro) references Libro(Id_libro)
+)
+
+
+--ingresando autores a la tabla autores
+insert into Autor values('MIGUEL DE CERVANTES')
+insert into Autor values('MARQUÉS DE SADE')
+insert into Autor values('GOETHE')
+insert into Autor values('JANE AUSTEN')
+insert into Autor values('MARY SHELLEY')
+insert into Autor values('VICTOR HUGO')
+insert into Autor values('CHARLES DICKENS')
+insert into Autor values('HERMAN MELVILLE')
+insert into Autor values('FIÓDOR DOSTOYEVSKI')
+insert into Autor values('JULIO VERNE')
+insert into Autor values('LEÓN TOLSTÓI')
+insert into Autor values('EMILE ZOLA')
+insert into Autor values('BRAM STOKER')
+insert into Autor values('OSCAR WILDE')
+insert into Autor values('MARCEL PROUST')
+insert into Autor values('JAMES JOYCE')
+insert into Autor values('FRANZ KAFKA')
+insert into Autor values('ISAK DINESEN')
+insert into Autor values('VLADIMIR NABOKOV')
+insert into Autor values('MARGUERITE DURAS')
+insert into Autor values('CHARLES BUKOWSKI')
+insert into Autor values('TRUMAN CAPOTE')
+insert into Autor values('EDGAR ALLAN POE')
+insert into Autor values('H.P LOVECRAFT')
+insert into Autor values('Shakespeare')
+insert into Autor values('Faulkner')
+
+--ingresando editoriales a la tabla editorial
+insert into Editorial values('Acantilado.')
+insert into Editorial values('Aguilar.')
+insert into Editorial values('Akal.')
+insert into Editorial values('Alba.')
+insert into Editorial values('Alfaguara.')
+insert into Editorial values('Alianza.')
+insert into Editorial values('Almadía.')
+insert into Editorial values('Anagrama.')
+insert into Editorial values('Editorial Mirahadas')
+insert into Editorial values('Errara Natura')
+insert into Editorial values('Pre-textos')
+insert into Editorial values('Sexto Piso')
+insert into Editorial values('Nórdica')
+insert into Editorial values('De Conatus')
+insert into Editorial values('Cabaret Voltaire')
+insert into Editorial values('La Huerta Grande')
+insert into Editorial values('Impedimenta')
+insert into Editorial values('La Umbría y la Solana')
+insert into Editorial values('Blackie Books')
+insert into Editorial values('Caro Raggio')
+insert into Editorial values('Libros del Asteroide')
+insert into Editorial values('Renacimiento')
+insert into Editorial values('Pálido Fuego')
+insert into Editorial values('Páginas de Espuma')
+
+
+--3- Trigger n° 3
+create trigger Control_estados
+on Libro for update as
+begin
+declare @nuevo_estado as varchar(70)
+declare @viejo_estado as varchar(70)
+declare @nombre as varchar(70)
+set @nuevo_estado = (select Estado from inserted)
+set @viejo_estado = (select Estado from deleted)
+set @nombre = (select NombreLibro from inserted)
+--que es lo que hara el trigger
+if(@viejo_estado like 'Prestado')
+begin
+print 'Este libro esta prestado no se puede reservar o prestar'
+update Libro set Estado = @viejo_estado where NombreLibro = @nombre 
+select NombreLibro, Estado from Libro where NombreLibro = @nombre
+end
+else if(@viejo_estado like 'Reservado')
+begin
+print 'Este libro esta reservado no se puede prestar'
+update Libro set Estado = @viejo_estado where NombreLibro = @nombre
+select NombreLibro, Estado from Libro where NombreLibro = @nombre
+end
+else
+begin
+print 'Este libro si se puede prestar'
+print 'Libro: ' + @nuevo_estado
+update Libro set Estado = @nuevo_estado where NombreLibro = @nombre
+select NombreLibro, Estado from Libro where NombreLibro = @nombre
+end
+end
+update Libro set Estado = 'Disponible' where NombreLibro = 'El principito' --cambiar el estado al momento de hacer el update, da la instruccion dependiendo en que estado se encuentre el ejempla
+select * from Libro
+drop trigger Control_estados
+select * from prestamo
+delete from prestamo where id_prestamo = 6
+delete from Libro where id_libro = 5
+select * from estudiante
+select * from Libro
+select * from prestamo
+drop database DB_bibliotecaUDB

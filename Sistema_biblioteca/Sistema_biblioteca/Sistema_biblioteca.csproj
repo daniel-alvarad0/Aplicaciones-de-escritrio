@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{147C4A46-410A-4062-98B1-BB41185C2B67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_biblioteca</RootNamespace>
+    <AssemblyName>ctu</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transitions, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\dot-net-transitions.1.2.1.0\lib\net40-full\Transitions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clases\conexion.cs" />
+    <Compile Include="clases\validacion.cs" />
+    <Compile Include="foms\Agregar_libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\Agregar_libro.Designer.cs">
+      <DependentUpon>Agregar_libro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\Consultar_estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\Consultar_estudiante.Designer.cs">
+      <DependentUpon>Consultar_estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\Consultar_libros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\Consultar_libros.Designer.cs">
+      <DependentUpon>Consultar_libros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\listado_libros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\listado_libros.Designer.cs">
+      <DependentUpon>listado_libros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\prestamo_libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\prestamo_libro.Designer.cs">
+      <DependentUpon>prestamo_libro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\Registro_estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\Registro_estudiante.Designer.cs">
+      <DependentUpon>Registro_estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\Registro_usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\Registro_usuario.Designer.cs">
+      <DependentUpon>Registro_usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foms\Regresar_libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="foms\Regresar_libro.Designer.cs">
+      <DependentUpon>Regresar_libro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="foms\Agregar_libro.resx">
+      <DependentUpon>Agregar_libro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\Consultar_estudiante.resx">
+      <DependentUpon>Consultar_estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\Consultar_libros.resx">
+      <DependentUpon>Consultar_libros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\listado_libros.resx">
+      <DependentUpon>listado_libros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\prestamo_libro.resx">
+      <DependentUpon>prestamo_libro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\Registro_estudiante.resx">
+      <DependentUpon>Registro_estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\Registro_usuario.resx">
+      <DependentUpon>Registro_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foms\Regresar_libro.resx">
+      <DependentUpon>Regresar_libro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
